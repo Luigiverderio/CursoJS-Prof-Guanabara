@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input id='txtano' type="number">
+            </p>
+            <p>Sexo:
+                <input type="radio" id="mas" name="radsex" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" id="fem" name="radsex">
+                <label for="fem">Feminino</label>
+            </p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado
+        </div>
+    </section>
+    <footer>
+        <p>
+            &copy; Luigi Montini Verdério
+        </p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
