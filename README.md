@@ -20,23 +20,9 @@ O projeto consiste em uma página web simples, com as seguintes seções:
 3. Exercícios - atividades interativas para fixação dos conteúdos estudados;
 4. Feedback - espaço para os alunos enviarem seus feedbacks e sugestões para melhoria do material didático.
 
-A estrutura básica do html é a seguinte:
-html
-|-- head
-    |-- title
-    |-- link [para carregar css]
-    |-- script [para carregar javascript]
-|-- body
-    |-- div[intro]
-    |-- section[teorico] * N vezes
-        |-- h2[titulo]
-        |-- hr
-        |-- article[conteudo]
-    |-- section[exercicio ou feedback]
-
-Os arquivos .css e .js devem estar na pasta "assets", dentro da pasta correspondente à seção ([teorico], [exercicio]) e dev
-Os arquivos .css e .js devem ter nomes correspondentes às respectivas seções do html.
 
 #### Nota importante!
 Para visualizar corretamente a estrutura proposta, é necessário que todos os elementos estejam dentro das tags "section".
----
+Os arquivos .css e .js devem estar na pasta "assets", dentro da pasta correspondente à seção ([teorico], [exercicio]) e dev
+Os arquivos .css e .js devem ter nomes correspondentes às respectivas seções do html.
+--- 
