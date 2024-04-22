@@ -1,0 +1,39 @@
+let valores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// for (let i = 0; i < valores.length; i++) {
+//     console.log(`Índex ${i} = Elemento: ${valores[i]}`);
+// };
+
+//Jeito Antigo
+for (let i in valores) {
+    console.log(`Índex ${i} = Elemento: ${valores[i]}`);
+};
+
+//Jeito Novo
+for (let i of valores) {
+    console.log(`Elemento: ${i}`);  
+};
+
+
+//Iterar sobre um objeto quer dizer percorrer as propriedades de um objeto e acessar seus valores e chaves.
+
+const pessoa = {
+    nome: 'Lucas',
+    sobrenome: 'Santos',
+    idade: 25
+};
+
+// for (let chave in pessoa) {  
+//     console.log(chave, pessoa[chave]);
+// };
+
+console.log(Object.keys(pessoa)); //Retorna um array com as chaves do objeto pessoa (nome, sobrenome, idade) 
+
+//---------IndexOf----------//
+let num = [87,8,9,0]
+console.log(num.indexOf(87)) //Retorna 0
+
+let num2 = [1,2,3,4,5,6,7,8,9,10]
+console.log(num2.indexOf(5)) //Retorna 4
+
+// Se nao tiver o valor no array, ele retorna -1

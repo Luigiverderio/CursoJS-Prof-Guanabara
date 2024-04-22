@@ -2,7 +2,6 @@
 **Geral**
 ### Objetivos do projeto
 - Aprender o máximo de js que eu conseguir.
-- Estudar sobre git e github.
 - Fazer um pequeno projeto para aplicar os conhecimentos adiquiridos.
 
 ### Tecnologias a serem utilizadas:
